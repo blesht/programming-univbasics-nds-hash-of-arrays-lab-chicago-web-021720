@@ -9,6 +9,6 @@ def add(show,name)
   BASE_HOA[:show] << name
 end
 
-base_hoa[:chipmunks] << "dave"
+BASE_HOA[:chipmunks] << "dave"
 # add("chipmunks","dave")
 puts BASE_HOA[:chipmunks]
