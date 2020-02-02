@@ -5,4 +5,4 @@ BASE_HOA = {
 }
 
 BASE_HOA[:chipmunks] << "dave"
-BASE_HOA
+puts BASE_HOA
