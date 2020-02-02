@@ -4,5 +4,10 @@ BASE_HOA = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-BASE_HOA[:chipmunks] << "dave"
+
+def add(show,name)
+  BASE_HOA[:show] << name
+end
+
+add(chipmunks,"dave")
 puts BASE_HOA
